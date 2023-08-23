@@ -15,7 +15,11 @@ dbConnect()
 app.use(
   cors({
     credentials: true,
-    origin: ['http://localhost:4200', 'https://appeateaze.netlify.app'],
+    origin: [
+      'http://localhost:4200',
+      'https://appeateaze.netlify.app',
+      'https://github.com/rafaelpajuelo/api-eateaze.git',
+    ],
   })
 )
 
