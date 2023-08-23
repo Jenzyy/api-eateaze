@@ -18,7 +18,7 @@ app.use(
     origin: [
       'http://localhost:4200',
       'https://appeateaze.netlify.app',
-      'https://app-eateaze.vercel.app/',
+      'https://app-eateaze.vercel.app',
     ],
   })
 )
